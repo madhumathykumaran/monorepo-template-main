@@ -31,15 +31,25 @@ class Image:
 
     def getPixels(self):
         return self.m_Pixels
+    
 
     def setPixelsToRandomValue(self):
         value = random.randint(0, 255)
         # Set the entire list to one color in one function call
         self.m_Pixels = [value] * (self.m_width * self.m_height * self.m_colorChannels)
+        print("pixels: ", self.m_Pixels[1])
 
 
 class Texture(Image):
-    pass
+    def __init__(self, color, image_obj):
+        self.color = color
+        self.image_obj = image_obj
+ 
+    def display(self):
+        self.image_obj.setPixelsToRandomValue()
+        print("color: ", self.color)
+        
+
 
 
 def main():
@@ -47,13 +57,17 @@ def main():
 
     # Create a first image
     image1 = Image(100, 200)
+
     # Create a second image
     image2 = Image(image1.getWidth(), image1.getHeight())
+
+    texture_obj = Texture('white', image1)
 
     print(f"image1: {image1.getWidth()}, {image1.getHeight()}")
     print(f"image1 red color at (0, 0): {image1.getPixelColorR(0, 0)}")
     print(f"image2: {image2.getWidth()}, {image2.getHeight()}")
     print(f"image2 red color at (0, 0): {image2.getPixelColorR(0, 0)}")
+    texture_obj.display()
 
 
 if __name__ == "__main__":
