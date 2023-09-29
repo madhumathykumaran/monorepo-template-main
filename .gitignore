@@ -1,3 +1,9 @@
 .idea*
 .DS_Store
 .venv*
+<<<<<<< Updated upstream
+
+.__pychache__
+=======
+>>>>>>> Stashed changes
+Assignment3/part1/__pycache__/gilded_rose.cpython-39.pyc
