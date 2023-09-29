@@ -6,7 +6,6 @@ from gilded_rose import Item, GildedRose
 
 class GildedRoseTest(unittest.TestCase):
 
-    
     def test_foo(self):
         items = [Item("foo", 0, 0)]
         gilded_rose = GildedRose(items)
@@ -133,6 +132,7 @@ class GildedRoseTest(unittest.TestCase):
         GildedRoseTest.updater(gilded_rose)
         self.assertEqual(item.sell_in, -3)
         self.assertEqual(item.quality, 0)
+
 
 
 

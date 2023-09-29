@@ -1,3 +1,4 @@
+
 # utf-8
 
 class Update_object(object):
@@ -52,7 +53,9 @@ class Update_object(object):
         item.sell_in += -1
 
 
+
 class GildedRose(object):
+
 
     def __init__(self, items):
         self.items = items
@@ -81,3 +84,5 @@ class Item:
 
     def __repr__(self):
         return "%s, %s, %s" % (self.name, self.sell_in, self.quality)
+
+   
