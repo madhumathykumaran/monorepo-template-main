@@ -6,31 +6,34 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**:  Set Canvas Size
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: user
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The user intends to set the size of the canvas for drawing.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User initiates the action to set the canvas size.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario**: 
+1. User selects the canvas size setting option.
+2. User specifies the canvas width as 600 pixels and the height as 400 pixels.
+3. The system updates the canvas to the specified size (600x400 pixels).
+   
+**Exceptions**: None
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Medium
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Initial Release
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: User interacts with the system through the graphical user interface (GUI).
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: None
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: We may need to implement the setting to change the canvas size setting for the purpose needed. Ex. Varied canvas size for passport photo, varied size for large paintings etc.
 
 <hr>
 

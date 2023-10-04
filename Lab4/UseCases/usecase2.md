@@ -6,32 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Select Drawing Color
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The primary actor wants to select a drawing color for use on the canvas.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: None
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User presses a number key (1-8) to select a color.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+1. User presses a number key (1-8) corresponding to a color choice.
+2. The system updates the current drawing color based on the user's choice.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: Keyboard events may not be triggered, usage of virtual keyboard must be enabled.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High-priority
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First Release
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: User interacts with the system through the keyboard.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: None
 
-**Open Issues**: *notes, concerns, or other materials*
-
+**Open Issues**: None at this point.
 <hr>
 
 

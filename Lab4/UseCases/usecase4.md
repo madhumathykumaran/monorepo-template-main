@@ -6,31 +6,34 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Draw with Mouse
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: The primary actor wants to draw on the canvas using the mouse.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User presses and holds the left mouse button.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+1. User presses and holds the left mouse button.
+2. As the mouse is moved, the system changes the color of pixels on the canvas where the mouse is located, simulating drawing.
+3. User releases the left mouse button to stop drawing.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: None 
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Very High Priority
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First Release.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: User interacts with the system through the mouse.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: None
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: None
 
 <hr>
 
