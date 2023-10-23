@@ -7,3 +7,9 @@
 =======
 >>>>>>> Stashed changes
 Assignment3/part1/__pycache__/gilded_rose.cpython-39.pyc
+
+/Users/Raj/Documents/GitHub/web-dev /monorepo-template-main/Lab6/todo_app/tests/__pycache__
+/Users/Raj/Documents/GitHub/web-dev /monorepo-template-main/Lab6/todo_app/tests/.pytest_cache
+/Users/Raj/Documents/GitHub/web-dev /monorepo-template-main/Lab6/todo_app/__pycache__
+/Users/Raj/Documents/GitHub/web-dev /monorepo-template-main/Lab6/todo_app/.pytest_cache
+*.pyc
